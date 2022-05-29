@@ -1,4 +1,5 @@
-import { createApp } from 'vue';
-import App from './App.vue';
+import app from '../plugins/element';
 
-createApp(App).mount('#app');
+app.mount('#app');
+
+export default app;
