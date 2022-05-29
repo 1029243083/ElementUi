@@ -49,7 +49,7 @@ export default defineComponent({
           props.align !== 'top' && `is-align-${props.align}`,
         ],
       },
-      slots.default(),
+      slots.default && slots.default(),
     );
   },
 });

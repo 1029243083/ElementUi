@@ -84,7 +84,7 @@ export default defineComponent({
         style: style.value,
         class: ['el-col', classList.value],
       },
-      slots.default(),
+      slots.default && slots.default(),
     );
   },
 });

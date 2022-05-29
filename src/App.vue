@@ -2,7 +2,7 @@
   <div class="box">
     <h1>基本布局</h1>
     <el-row tag="h1">
-      <el-col :span="24" class="hidden-sm-and-up" tag="p">
+      <el-col :span="24" class="hidden-sm-and-up" tag="ul">
         <div class="grid-content bg-purple-dark"></div>
       </el-col>
     </el-row>
