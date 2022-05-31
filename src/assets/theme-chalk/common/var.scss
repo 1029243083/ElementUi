@@ -8,9 +8,13 @@ $--header-padding: 0 20px !default;
 $--main-padding: 0 20px !default;
 $--footer-padding: 0 20px !default;
 
+
 /*
 主题色
 ---------------------*/
+$--color-white: #ffffff !default;
+$--color-black: #000000 !default;
+
 $--color-primary: #409EFF !default;
 $--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default;
 $--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default;
@@ -22,8 +26,6 @@ $--color-primary-light-7: mix($--color-white, $--color-primary, 70%) !default;
 $--color-primary-light-8: mix($--color-white, $--color-primary, 80%) !default;
 $--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default;
 
-$--color-white: #ffffff !default;
-$--color-black: #000000 !default;
 // 辅助色
 // success
 $--color-success: #67c23a !default;
@@ -51,6 +53,7 @@ $--border-color-base: #DCDFE6 !default; // 一级边框
 $--border-color-light: #E4E7ED !default; // 二级边框
 $--border-color-lighter: #EBEEF5 !default; // 三级边框
 $--border-color-extra-lighte: #F2F6FC !default; // 四级边框
+
 /*
 响应式
 */
