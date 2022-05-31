@@ -8,7 +8,7 @@
 import { defineComponent, computed } from 'vue';
 
 export default defineComponent({
-  name: 'ElContainter',
+  name: 'ElContainer',
   props: {
     direction: {
       type: String,
