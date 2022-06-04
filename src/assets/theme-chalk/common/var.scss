@@ -64,19 +64,77 @@ $--font-size-medium: 16px !default; // 小标题
 $--font-size-base: 14px !default; // 正文
 $--font-size-small: 13px !default; // 正文(小)
 $--font-size-extra-small: 12px !default; // 正文(小)
+$--font-weight-primary: 500 !default;
 
 /*
 ----------------------------边框
 */
 $--border-wdith-base: 1px !default;
 $--border-style-base: solid !default;
-$--border-base: $--border-wdith-base $--border-style-base !default;
+$--border-base: $--border-wdith-base $--border-style-base $--border-color-base !default;
 $--border-radius-base: 4px !default; // 大圆角
 $--border-radius-small: 2px !default; // 小圆角
 $--border-radius-zero: 0px !default; // 无圆角
 $--box-shadow-base: 0 2px 4px rgba(0, 0, 0, .12),
 0 0 6px rgba(0, 0, 0, .04) !default;
 $--box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !default;
+
+/*
+----------------------------Button
+*/
+$--button-default-background-color: #fff !default;
+$--button-default-border-color: #dcdfe6 !default;
+$--button-default-font-color: #606266 !default;
+
+$--button-primary-background-color: #409eff !default;
+$--button-primary-border-color: #409eff !default;
+$--button-primary-font-color: #fff !default;
+
+$--button-success-background-color: #67c23a !default;
+$--button-success-border-color: #67c23a !default;
+$--button-success-font-color: #fff !default;
+
+
+$--button-info-background-color: #909399 !default;
+$--button-info-border-color: #909399 !default;
+$--button-info-font-color: #fff !default;
+
+$--button-warning-background-color: #e6a23c !default;
+$--button-warning-border-color: #e6a23c !default;
+$--button-warning-font-color: #fff !default;
+
+$--button-danger-background-color: #f56c6c !default;
+$--button-danger-border-color: #f56c6c !default;
+$--button-danger-font-color: #fff !default;
+
+$--button-font-weight: $--font-weight-primary !default; // 500
+$--button-font-size: $--font-size-base !default; // 14px
+$--button-border-radius: $--border-radius-base !default; // 4px
+$--button-padding-vertical: 12px !default;
+$--button-padding-horizontal: 20px !default;
+
+$--button-medium-padding-vertical: 10px !default;
+$--button-medium-padding-horizontal: 20px !default;
+$--button-medium-font-size: $--font-size-base !default;
+$--button-medium-border-radius: $--border-base !default;
+
+$--button-small-padding-vertical: 9px !default;
+$--button-small-padding-horizontal: 15px !default;
+$--button-small-font-size: $--font-size-small !default;
+$--button-small-border-radius: #{$--border-base - 1} !default;
+
+$--button-mini-padding-vertical: 7px !default;
+$--button-mini-padding-horizontal: 15px !default;
+$--button-mini-font-size: $--font-size-small !default;
+$--button-mini-border-radius: #{$--border-base - 1} !default;
+
+$--button-active-shade-percent: 10% !default;
+$--button-hover-tint-percent: 20% !default;
+
+$--button-disabled-background-color: #fff !default;
+$--button-disabled-border-color: #ebeef5 !default;
+$--button-disabled-font-color: #c0c4cc !default;
+
 /*
 响应式
 */
